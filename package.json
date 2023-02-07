@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "name": "lab-express-basic-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:waggnerl/lab-express-basic-site.git",
+  "author": "waggnerl <wagnermflira@gmail.com>",
+  "license": "MIT"
+}
