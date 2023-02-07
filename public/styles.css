@@ -1,0 +1,108 @@
+/* general */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:ital,wght@0,300;1,500&display=swap");
+* {
+  margin: 0;
+}
+nav {
+  display: grid;
+  grid-template-columns: [first] 43.8vw [line2] auto;
+  align-items: center;
+  width: 100vw;
+  background-color: rgba(191, 189, 189, 0.775);
+  position: fixed;
+}
+
+.logo-cr7 {
+  width: 5vw;
+  padding: 0.2vh 0.6vw;
+}
+
+nav > div {
+  display: flex;
+  justify-content: start;
+}
+nav > div > a {
+  text-decoration: none;
+  padding: 0.2vh 0.2vw;
+  font-family: "Lato", sans-serif;
+  font-size: 1vw;
+  color: black;
+}
+/* general */
+
+/* home */
+.welcome_page_cr7 {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: #c04848;
+  background-image: url("/image/cr7_welcome.gif");
+  transition: background-color 2s ease-out 100ms;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header:hover {
+  background: linear-gradient(rgba(137, 131, 131, 0.8), rgba(7, 0, 0, 0.8)),
+    url("/image/cr7_welcome.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hover-text {
+  display: none;
+}
+
+header:hover .hover-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image-text-gif {
+  width: 11vw;
+}
+
+/* home */
+
+/* about */
+.about-container {
+  padding-top: 8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-about-text {
+  /* height: rem; */
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 3rem;
+}
+
+.left {
+  align-items: flex-start;
+  text-align: left;
+}
+.right {
+  align-items: flex-end;
+  text-align: right;
+}
+
+.content-about-text h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 3.7rem;
+}
+.content-about-text p {
+  font-size: 1.85rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.resize-image {
+  width: 60rem;
+}
